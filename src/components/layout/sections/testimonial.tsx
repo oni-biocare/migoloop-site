@@ -87,7 +87,7 @@ export const TestimonialSection = () => {
           {reviewList.map((review) => (
             <CarouselItem
               key={review.name}
-              className="md:basis-1/2 lg:basis-1/3"
+              className="md:basis-1/2 lg:basis-1/3" 
             >
               <Card className="h-full bg-muted/30 border-primary/20 hover:border-primary/40 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
                 <CardContent className="pt-6 pb-0">
