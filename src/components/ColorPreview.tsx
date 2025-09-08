@@ -233,7 +233,7 @@ export const ColorPreview: React.FC = () => {
       <Card className="bg-gradient-to-r from-primary/10 to-primary/5 border-primary/20">
         <CardContent className="pt-8 text-center">
           <h3 className="text-2xl font-bold text-primary mb-4">
-            "Micro Going - Take a small step ahead consistently"
+            “Turning every cycle into value, even the smallest ones.”
           </h3>
           <p className="text-text-secondary max-w-2xl mx-auto">
             Our color system reflects this philosophy through progressive color variations, 

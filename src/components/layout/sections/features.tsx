@@ -60,7 +60,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-2/3 mx-auto text-xl text-center text-muted-foreground mb-12">
-        Our "Micro Going" philosophy ensures that every step toward software modernization is strategic, sustainable, and aligned with your business goals.
+        Our philosophy, “Turning every cycle into value, even the smallest ones.” ensures that every step toward software modernization is strategic, sustainable, and aligned with your business goals.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -90,7 +90,7 @@ export const FeaturesSection = () => {
 
       <div className="text-center mt-16 p-8 rounded-2xl bg-gradient-to-r from-primary/5 to-primary/10 border border-primary/20">
         <h3 className="text-2xl font-semibold text-primary mb-4">
-          "Micro Going - Take a small step ahead consistently"
+          “Turning every cycle into value, even the smallest ones.”
         </h3>
         <p className="text-muted-foreground max-w-2xl mx-auto">
           In the AI era, any business needs to be ready to upgrade itself.

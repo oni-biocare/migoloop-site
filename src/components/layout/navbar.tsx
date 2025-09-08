@@ -54,8 +54,8 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
   {
-    title: "Micro Going",
-    description: "We believe in taking small, consistent steps toward AI transformation.",
+    title: "Turning Every Cycle Into Value",
+    description: "Turning every cycle into value, even the smallest ones.",
   },
   {
     title: "Continuous Improvement",
@@ -81,25 +81,25 @@ export const Navbar = () => {
     <header className="sticky top-0 z-40 w-full bg-background/95 backdrop-blur-md border-b border-primary/20 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3 lg:py-4">
-          
+
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="relative">
               <div className="absolute"></div>
               <OniImage
-                className="relative w-12 h-12 lg:w-12 lg:h-12 rounded-lg border-2 border-white/20"
-                src="/app_logo.png"
-                width={48}
-                height={48}
+                className="relative h-18 w-120 rounded-lg border-2 border-white/20"
+                src="/app_logo_full.png"
+                width={120}
+                height={19}
                 alt="MigoLoop Logo"
                 priority
               />
             </div>
-            <span className="text-lg lg:text-xl font-bold text-secondary bg-clip-text">
+            {/* <span className="text-lg lg:text-xl font-bold text-secondary bg-clip-text">
               Migoloop
-            </span>
+            </span> */}
           </Link>
-          
+
           {/* Mobile Menu */}
           <div className="flex items-center lg:hidden">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -168,8 +168,14 @@ export const Navbar = () => {
                   <div className="grid w-[800px] grid-cols-2 gap-6 p-6 bg-card/95 backdrop-blur-md border border-primary/20 rounded-xl shadow-xl">
                     <div className="space-y-4">
                       <div className="flex items-center space-x-3 mb-4">
-                        <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary/80 rounded-lg flex items-center justify-center">
-                          <span className="text-white font-bold text-lg">AI</span>
+                        <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
+                          <OniImage
+                            className="relative h-18 w-120"
+                            src="/app_logo.png"
+                            width={120}
+                            height={19}
+                            alt="MigoLoop Logo"
+                            priority />
                         </div>
                         <div>
                           <h3 className="text-lg font-semibold text-primary">Software Consulting & Development</h3>
@@ -210,8 +216,8 @@ export const Navbar = () => {
               <NavigationMenuItem>
                 {routeList.map(({ href, label }) => (
                   <NavigationMenuLink key={href} asChild>
-                    <Link 
-                      href={href} 
+                    <Link
+                      href={href}
                       className="px-3 py-2 rounded-lg font-medium hover:bg-primary/10 hover:text-secondary transition-colors text-sm"
                     >
                       {label}

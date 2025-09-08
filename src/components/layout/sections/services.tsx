@@ -26,7 +26,7 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Idea-to-MVP Sprint",
+    title: "Ignite",
     description:
       "From idea to traction in weeks, not months. We turn concepts into working MVPs that deliver results with real customers—not just a demo.",
     pro: 0,
@@ -39,7 +39,7 @@ const serviceList: ServiceProps[] = [
     ]
   },
   {
-    title: "AI That Works in Your Stack",
+    title: "Fit",
     description:
       "Integrate AI seamlessly into current workflows with guardrails, data you can trust, and ROI you can measure.",
     pro: 1, // featured
@@ -52,7 +52,7 @@ const serviceList: ServiceProps[] = [
     ]
   },
   {
-    title: "Scale-Ready Product Engineering",
+    title: "Scale",
     description:
       "Build and evolve robust software with modern architecture, smooth integrations, and ongoing optimization.",
     pro: 0,
@@ -133,7 +133,7 @@ export const ServicesSection = () => {
           <span className="text-sm">Ready to start your digital transformation journey?</span>
         </div>
         <p className="text-2xl font-semibold mt-2 text-primary">
-          "Micro Going - Take a small step ahead consistently"
+          “Turning every cycle into value, even the smallest ones.”
         </p>
       </div>
     </section>

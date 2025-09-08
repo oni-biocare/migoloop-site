@@ -36,7 +36,7 @@ const reviewList: ReviewProps[] = [
     comment:
       "We built a platform that help e-commerce businesses to scale their sales and marketing efforts.",
     rating: 5.0,
-    service: "Scale-Ready Product Engineering"
+    service: "Scale"
   },
   {
     image: "https://github.com/shadcn.png",
@@ -46,7 +46,7 @@ const reviewList: ReviewProps[] = [
     comment:
       "Migoloop helped us build a scalable and efficient CRM & Sales Automation System that has transformed our sales process. Our team is now able to close deals faster and more efficiently.",
     rating: 5.0,
-    service: "AI That Works in Your Stack"
+    service: "Fit"
   },
   {
     image: "https://github.com/shadcn.png",
@@ -56,7 +56,7 @@ const reviewList: ReviewProps[] = [
     comment:
       "Migoloop make us understand about how AI can help our business to scale. Help us build workflow that AI and human can work together, remove all the fear of employee about the idea: \"AI will replace them\".",
     rating: 4.5,
-    service: "AI That Works in Your Stack"
+    service: "Fit"
   }
 ];
 
@@ -164,7 +164,7 @@ export const TestimonialSection = () => {
           <span className="text-sm">Ready to join our success stories?</span>
         </div>
         <p className="text-2xl font-semibold text-primary mb-4">
-          "Micro Going - Take a small step ahead consistently"
+          “Turning every cycle into value, even the smallest ones.”
         </p>
         <p className="text-muted-foreground max-w-2xl mx-auto">
           Let's transform your business with modern software, one step at a time. 

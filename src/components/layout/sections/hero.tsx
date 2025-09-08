@@ -78,7 +78,7 @@ export const HeroSection = () => {
 
           <div className="w-full max-w-4xl mx-auto p-8 rounded-2xl bg-gradient-to-br from-muted/60 to-muted/50 border border-primary/10">
             <div className="text-center space-y-4">
-              <h3 className="text-2xl font-semibold text-secondary">"Micro Going - Take a small step ahead consistently"</h3>
+              <h3 className="text-2xl font-semibold text-secondary">“Turning every cycle into value, even the smallest ones.”</h3>
               <p className="text-secondary max-w-2xl mx-auto">
                 In the AI era, any business needs to be ready to upgrade itself.
                 We are happy to accompany you on this path, true to our core value of continuous improvement.

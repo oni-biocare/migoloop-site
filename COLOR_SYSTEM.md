@@ -1,7 +1,7 @@
 # MigoLoop Color System
 
 ## Overview
-This document outlines the comprehensive color system for the MigoLoop website, designed to create a professional, trustworthy appearance for software consulting services while maintaining the "Micro Going" philosophy.
+This document outlines the comprehensive color system for the MigoLoop website, designed to create a professional, trustworthy appearance for software consulting services while maintaining the philosophy: “Turning every cycle into value, even the smallest ones.”
 
 ## Color Philosophy
 - **Primary Gold (#fcbe11)**: Represents innovation, progress, value, and expertise
@@ -279,7 +279,7 @@ CSS custom properties provide efficient color management without additional Java
 ### Consistency
 - Maintain consistent color usage across all components
 - Use the established color hierarchy for visual hierarchy
-- Ensure colors support the "Micro Going" philosophy of progressive improvement
+- Ensure colors support the philosophy: “Turning every cycle into value, even the smallest ones.”
 
 ### Evolution
 - Colors can be adjusted for seasonal campaigns or special events

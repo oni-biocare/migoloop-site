@@ -11,7 +11,7 @@ import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
   title: "MigoLoop - Software Consulting & Development Services",
-  description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation. Micro Going - Take a small step ahead consistently.",
+  description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation. “Turning every cycle into value, even the smallest ones.”",
   openGraph: {
     type: "website",
     url: "https://migoloop.com",

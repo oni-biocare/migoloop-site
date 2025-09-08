@@ -18,30 +18,19 @@ export const FooterSection = () => {
             {/* Company Info */}
             <div className="lg:col-span-2 space-y-6">
               <Link href="/" className="inline-flex items-center space-x-3 group">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/80 rounded-xl blur-sm opacity-60 group-hover:opacity-80 transition-opacity"></div>
-                  <OniImage
-                    className="relative w-12 h-12 rounded-xl border-2 border-white/20 shadow-lg"
-                    src="/onibiocare-logo.png"
-                    width={48}
-                    height={48}
-                    alt="MigoLoop Logo"
-                    priority
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                    MigoLoop
-                  </span>
-                  <span className="text-sm text-muted-foreground">
-                    Software Consulting & Development
-                  </span>
-                </div>
+              <OniImage
+                className="relative h-20 w-200 rounded-lg border-2 border-white/20"
+                src="/app_logo_full.png"
+                width={200}
+                height={20}
+                alt="MigoLoop Logo"
+                priority
+              />
               </Link>
               
               <div className="space-y-4">
                 <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-                  "Micro Going - Take a small step ahead consistently"
+                  “Turning every cycle into value, even the smallest ones.”
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
                   We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation.
@@ -63,9 +52,9 @@ export const FooterSection = () => {
               </h3>
               <div className="space-y-3">
                 {[
-                  "Idea-to-MVP Sprint",
-                  "AI That Works in Your Stack", 
-                  "Scale-Ready Product Engineering"
+                  "Ignite",
+                  "Fit", 
+                  "Scale"
                 ].map((service, index) => (
                   <Link 
                     key={index}
