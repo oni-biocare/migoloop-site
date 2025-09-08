@@ -94,7 +94,7 @@ export default async function BlogPost({ params }: PageProps) {
     dateModified: post.date,
     author: {
       '@type': 'Person',
-      name: post.author || 'Oni Biocare Team',
+      name: post.author || 'Development Team',
     },
     image: post.coverImage || 'https://migoloop.com/og-image.jpg',
     publisher: {

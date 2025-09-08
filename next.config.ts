@@ -44,9 +44,9 @@ const nextConfig = {
     // Metadata configuration for SEO
     env: {
       siteUrl: 'https://migoloop.com',
-      siteName: 'MigoLoop',
-      siteDescription: 'Sản phẩm chăm sóc sức khỏe chất lượng cao',
-      locale: 'vi_VN',
+      siteName: 'Migoloop',
+      siteDescription: 'Software Consulting & Development',
+      locale: 'en_US',
       basePath: basePath, // Make basePath available in environment
     },
 };

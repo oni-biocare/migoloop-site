@@ -14,7 +14,7 @@ export const metadata = {
   description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation. Micro Going - Take a small step ahead consistently.",
   openGraph: {
     type: "website",
-    url: "https://MigoLoop.com",
+    url: "https://migoloop.com",
     title: "MigoLoop - Software Consulting & Development Services",
     description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation.",
     images: [
