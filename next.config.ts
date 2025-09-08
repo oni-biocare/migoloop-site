@@ -26,7 +26,7 @@ const nextConfig = {
         'localhost', 
         'localhost:3000', 
         'media.licdn.com', 
-        'onibiocare.com',
+        'migoloop.com',
         'oni-biocare.github.io'
       ],
       remotePatterns: [
@@ -43,7 +43,7 @@ const nextConfig = {
     
     // Metadata configuration for SEO
     env: {
-      siteUrl: 'https://onibiocare.com',
+      siteUrl: 'https://migoloop.com',
       siteName: 'MigoLoop',
       siteDescription: 'Sản phẩm chăm sóc sức khỏe chất lượng cao',
       locale: 'vi_VN',

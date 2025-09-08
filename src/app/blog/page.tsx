@@ -35,13 +35,13 @@ export default function BlogPage() {
     '@type': 'Blog',
     name: 'Blog - MigoLoop',
     description: 'Explore the latest posts about health, technology, and science from MigoLoop.',
-    url: 'https://onibiocare.com/blog',
+    url: 'https://migoloop.com/blog',
     publisher: {
       '@type': 'Organization',
       name: 'MigoLoop',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://onibiocare.com/logo.png'
+        url: 'https://migoloop.com/logo.png'
       }
     },
     blogPosts: posts.slice(0, 10).map(post => ({
@@ -52,7 +52,7 @@ export default function BlogPage() {
         '@type': 'Person',
         name: post.author || 'Oni Biocare'
       },
-      url: `https://onibiocare.com/blog/${post.id}`,
+      url: `https://migoloop.com/blog/${post.id}`,
       description: post.excerpt || '',
       keywords: post.category || ''
     }))

@@ -23,7 +23,7 @@ const partners: Partner[] = [
     name: "Onibiocare",
     logoSrc: "/onibiocare-logo.png",
     description: "CRM & Sales Automation System",
-    link: "https://onibiocare.com"
+    link: "https://migoloop.com"
   }
 ];
 

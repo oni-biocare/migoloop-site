@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.siteUrl || 'https://onibiocare.com'),
+  metadataBase: new URL(process.env.siteUrl || 'https://migoloop.com'),
   title: {
     default: process.env.siteName || 'MigoLoop',
     template: `%s | ${process.env.siteName || 'MigoLoop'}`,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: process.env.locale || 'en_US',
-    url: process.env.siteUrl || 'https://onibiocare.com',
+    url: process.env.siteUrl || 'https://migoloop.com',
     title: process.env.siteName || 'MigoLoop',
     description: process.env.siteDescription || 'High-quality health care products',
     siteName: process.env.siteName || 'MigoLoop',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
   },
   alternates: {
-    canonical: 'https://onibiocare.com',
+    canonical: 'https://migoloop.com',
   },
 };
 

@@ -14,6 +14,8 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { TableOfContents } from '@/components/TableOfContents';
 
+export const dynamicParams = false;
+
 // Define correct type for Next.js 15
 interface PageProps {
   params: { id: string };
@@ -94,19 +96,19 @@ export default async function BlogPost({ params }: PageProps) {
       '@type': 'Person',
       name: post.author || 'Oni Biocare Team',
     },
-    image: post.coverImage || 'https://onibiocare.com/og-image.jpg',
+    image: post.coverImage || 'https://migoloop.com/og-image.jpg',
     publisher: {
       '@type': 'Organization',
       name: 'MigoLoop',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://onibiocare.com/logo.png'
+        url: 'https://migoloop.com/logo.png'
       }
     },
     description: post.excerpt || post.content.slice(0, 160),
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://onibiocare.com/blog/${id}`,
+      '@id': `https://migoloop.com/blog/${id}`,
     },
     articleBody: post.content,
     wordCount: post.content.split(/\s+/).length,
@@ -150,10 +152,15 @@ export default async function BlogPost({ params }: PageProps) {
           
           {/* Centered datetime */}
           <div className="flex justify-center items-center mb-8 text-muted-foreground">
-            <time dateTime={post.date}>
-              {format(new Date(post.date), 'MMMM d, yyyy')}
-            </time>
-            
+            {(() => {
+              const parsed = post.date ? new Date(post.date) : null;
+              const valid = parsed && !isNaN(parsed.getTime());
+              return valid ? (
+                <time dateTime={post.date}>
+                  {format(parsed as Date, 'MMMM d, yyyy')}
+                </time>
+              ) : null;
+            })()}
             {post.author && (
               <>
                 <span className="mx-2">•</span>
