@@ -17,24 +17,14 @@ export const metadata = {
     url: "https://migoloop.com",
     title: "MigoLoop - Software Consulting & Development Services",
     description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation.",
-    images: [
-      // {
-      //   url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-      //   width: 1200,
-      //   height: 630,
-      //   alt: "MigoLoop Software Consulting Services",
-      // },
-    ],
+    images: ['/og-image.png'],
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   site: "https://github.com/nobruf/shadcn-landing-page.git",
-  //   title: "MigoLoop - Software Consulting & Development",
-  //   description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation.",
-  //   images: [
-  //     "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-  //   ],
-  // },
+  twitter: {
+    card: "summary_large_image",
+    title: "MigoLoop - Software Consulting & Development",
+    description: "We accompany you on the path to upgrading your business through strategic software consulting, custom development, and progressive digital transformation.",
+    images: ['/og-image.png'],
+  },
 };
 
 export default function Home() {

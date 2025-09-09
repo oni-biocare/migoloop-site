@@ -11,14 +11,7 @@ export const metadata: Metadata = {
     title: 'Blog - Latest posts',
     description: 'Explore the latest posts about health, technology, and science from MigoLoop.',
     type: 'website',
-    images: [
-      {
-        url: '/images/og/blog.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'MigoLoop Blog',
-      },
-    ],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: '/blog',

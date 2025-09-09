@@ -47,13 +47,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           height: 630,
           alt: post.title,
         }
-      ] : [],
+      ] : ['/og-image.png'],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt || post.content.slice(0, 160),
-      images: post.coverImage ? [post.coverImage] : [],
+      images: post.coverImage ? [post.coverImage] : ['/og-image.png'],
     },
     alternates: {
       canonical: `/blog/${id}`,
@@ -96,7 +96,7 @@ export default async function BlogPost({ params }: PageProps) {
       '@type': 'Person',
       name: post.author || 'Development Team',
     },
-    image: post.coverImage || 'https://migoloop.com/og-image.jpg',
+    image: post.coverImage || 'https://migoloop.com/og-image.png',
     publisher: {
       '@type': 'Organization',
       name: 'MigoLoop',
